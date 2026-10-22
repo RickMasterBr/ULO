@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ExcelDesktopApp/ExcelDesktopApp.csproj" />
+  <Project Path="ExcelLib/ExcelLib.csproj" />
+</Solution>

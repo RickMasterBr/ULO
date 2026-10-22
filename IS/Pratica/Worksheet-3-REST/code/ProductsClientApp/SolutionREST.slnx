@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ProductsAPI/ProductsAPI.csproj" />
+  <Project Path="ProductsAPIv2/ProductsAPIv2.csproj" />
+  <Project Path="ProductsClientApp/ProductsClientApp.csproj" />
+  <Project Path="ProductsDatabaseAPI/ProductsDatabaseAPI.csproj" />
+</Solution>

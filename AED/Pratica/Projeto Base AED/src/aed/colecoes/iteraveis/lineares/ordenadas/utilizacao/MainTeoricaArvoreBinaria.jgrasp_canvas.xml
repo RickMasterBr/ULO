@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+    <Language>Java</Language>
+    <ShowTypes>false</ShowTypes>
+    <Version>2</Version>
+    <Grid>
+        <Snap>true</Snap>
+        <Show>false</Show>
+    </Grid>
+    <Frame>
+        <Bounds>
+            <AutoSize>true</AutoSize>
+            <X>10</X>
+            <Y>30</Y>
+            <W>238</W>
+            <H>80</H>
+        </Bounds>
+        <Viewer>
+            <Expression>elem</Expression>
+            <ViewerClass>_X_PresentationToStringView</ViewerClass>
+        </Viewer>
+    </Frame>
+    <Frame>
+        <Bounds>
+            <AutoSize>false</AutoSize>
+            <X>1800</X>
+            <Y>310</Y>
+            <W>1110</W>
+            <H>1044</H>
+        </Bounds>
+        <PanelSize>
+            <Key>java__lang__Object_LinkedView0</Key>
+            <Order>4</Order>
+            <W>1112</W>
+            <H>1087</H>
+        </PanelSize>
+        <PanelSize>
+            <Key>_X_ElementView0</Key>
+            <Order>3</Order>
+            <W>294</W>
+            <H>605</H>
+        </PanelSize>
+        <PanelSize>
+            <Key>_X_PresentationToStringView0</Key>
+            <Order>2</Order>
+            <W>834</W>
+            <H>70</H>
+        </PanelSize>
+        <Viewer>
+            <Expression>corrente</Expression>
+            <ViewerClass>java__lang__Object_LinkedView</ViewerClass>
+            <ViewerData>
+
+
+                <StructureData>
+
+
+                    <Type>BTree</Type>
+
+
+                    <WrapperExp>_tree_</WrapperExp>
+
+
+                    <NodeTypeNm>
+                        pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ArvoreBinaria$No
+                    </NodeTypeNm>
+
+
+                    <LeftLnkExp>_node_.esquerda</LeftLnkExp>
+
+
+                    <RightLnkExp>_node_.direita</RightLnkExp>
+
+
+                    <ValueExp>_node_.elemento</ValueExp>
+
+
+                </StructureData>
+
+
+                <ViewData>
+
+
+                    <Width>127</Width>
+
+
+                    <Round>false</Round>
+
+
+                </ViewData>
+
+
+            </ViewerData>
+        </Viewer>
+    </Frame>
+    <Frame>
+        <Bounds>
+            <AutoSize>true</AutoSize>
+            <X>410</X>
+            <Y>30</Y>
+            <W>98</W>
+            <H>36</H>
+        </Bounds>
+        <Viewer>
+            <Expression>pessoa</Expression>
+            <ViewerClass>jgrasp_viewers._X_PresentationToStringView</ViewerClass>
+        </Viewer>
+    </Frame>
+    <Frame>
+        <Bounds>
+            <AutoSize>false</AutoSize>
+            <X>60</X>
+            <Y>1050</Y>
+            <W>662</W>
+            <H>392</H>
+        </Bounds>
+        <PanelSize>
+            <Key>java__lang__Object_LinkedView0</Key>
+            <Order>4</Order>
+            <W>664</W>
+            <H>435</H>
+        </PanelSize>
+        <Viewer>
+            <Expression>pilha</Expression>
+            <ViewerClass>java__lang__Object_LinkedView</ViewerClass>
+            <ViewerData>
+
+
+                <StructureData>
+
+
+                    <Type>List</Type>
+
+
+                    <WrapperExp>_list_.noTopo</WrapperExp>
+
+
+                    <NodeTypeNm>pt.ipleiria.estg.dei.aed.colecoes.naoiteraveis.estruturas.Pilha$No</NodeTypeNm>
+
+
+                    <FwdLnkExp>_node_.seguinte</FwdLnkExp>
+
+
+                    <ValueExp>((ArvoreBinaria.No) _node_.elemento).elemento</ValueExp>
+
+
+                </StructureData>
+
+
+                <ViewData>
+
+
+                    <Width>225</Width>
+
+
+                    <Vertical>true</Vertical>
+
+
+                </ViewData>
+
+
+            </ViewerData>
+        </Viewer>
+    </Frame>
+    <Frame>
+        <Bounds>
+            <AutoSize>true</AutoSize>
+            <X>260</X>
+            <Y>30</Y>
+            <W>138</W>
+            <H>81</H>
+        </Bounds>
+        <LabelLoc>
+            <WO>false</WO>
+        </LabelLoc>
+        <Viewer>
+            <Expression>cp</Expression>
+            <ViewerClass>_X_ElementView</ViewerClass>
+        </Viewer>
+    </Frame>
+    <Frame>
+        <Bounds>
+            <AutoSize>false</AutoSize>
+            <X>5</X>
+            <Y>110</Y>
+            <W>1016</W>
+            <H>506</H>
+        </Bounds>
+        <PanelSize>
+            <Key>jgrasp_viewers.java__lang__Object_LinkedView0</Key>
+            <Order>4</Order>
+            <W>1022</W>
+            <H>546</H>
+        </PanelSize>
+        <PanelSize>
+            <Key>java__lang__Object_LinkedView0</Key>
+            <Order>3</Order>
+            <W>1572</W>
+            <H>1437</H>
+        </PanelSize>
+        <Viewer>
+            <Expression>pessoasPorNome</Expression>
+            <ViewerClass>jgrasp_viewers.java__lang__Object_LinkedView</ViewerClass>
+            <ViewerData>
+                <StructureData>
+                    <Type>BTree</Type>
+                    <WrapperExp>_tree_.base</WrapperExp>
+                    <NodeTypeNm>aed.colecoes.iteraveis.lineares.ordenadas.estruturas.ArvoreBinaria.NoBase</NodeTypeNm>
+                    <LeftLnkExp>_node_.esquerda</LeftLnkExp>
+                    <RightLnkExp>_node_.direita</RightLnkExp>
+                    <ValueExp>_node_.elemento</ValueExp>
+                </StructureData>
+                <StructureFields>
+                    <Field>
+                        <Name>numeroElementos</Name>
+                    </Field>
+                </StructureFields>
+                <ViewData>
+                    <Width>136</Width>
+                    <Round>false</Round>
+                </ViewData>
+            </ViewerData>
+        </Viewer>
+    </Frame>
+    <Frame>
+        <Bounds>
+            <AutoSize>true</AutoSize>
+            <X>880</X>
+            <Y>850</Y>
+            <W>1227</W>
+            <H>281</H>
+        </Bounds>
+        <Viewer>
+            <Expression>fila</Expression>
+            <ViewerClass>java__lang__Object_LinkedView</ViewerClass>
+            <ViewerData>
+
+
+                <StructureData>
+
+
+                    <Type>List</Type>
+
+
+                    <WrapperExp>_list_.elementos.base</WrapperExp>
+
+
+                    <NodeTypeNm>
+                        pt.ipleiria.estg.dei.aed.colecoes.iteraveis.lineares.naoordenadas.estruturas.ListaCircularBaseNaoOrdenada_Avaliacao1_Iterador$No
+                    </NodeTypeNm>
+
+
+                    <FwdLnkExp>_node_.seguinte</FwdLnkExp>
+
+
+                    <BkwdLnkExp>_node_.anterior</BkwdLnkExp>
+
+
+                    <ValueExp>((ArvoreBinaria.No)_node_.elemento)==null ? null :
+                        ((ArvoreBinaria.No)_node_.elemento).elemento
+                    </ValueExp>
+
+
+                </StructureData>
+
+
+                <ViewData>
+
+
+                    <Width>123</Width>
+
+
+                </ViewData>
+
+
+            </ViewerData>
+        </Viewer>
+    </Frame>
+    <Size>
+        <W>651</W>
+        <H>695</H>
+    </Size>
+    <ESize>
+        <W>651</W>
+        <H>695</H>
+    </ESize>
+</Canvas>

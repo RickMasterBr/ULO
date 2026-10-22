@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="ConsoleAppSheet1/ConsoleAppSheet1.csproj" />
+  <Project Path="OrganizationLib/OrganizationLib.csproj" />
+</Solution>

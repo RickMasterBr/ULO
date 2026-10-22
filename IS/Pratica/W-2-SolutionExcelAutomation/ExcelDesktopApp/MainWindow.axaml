@@ -1,0 +1,46 @@
+<Window xmlns="https://github.com/avaloniaui" 
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450" 
+        SizeToContent="WidthAndHeight" 
+        x:Class="ExcelDesktopApp.MainWindow" 
+        Title="Excel Automation"> 
+ 
+    <StackPanel Margin="24" Spacing="20"> 
+        <TextBlock Text="Excel File Manager" 
+                   FontSize="24" 
+                   FontWeight="SemiBold" 
+                   Margin="0,0,0,10"/> 
+ 
+        <Grid ColumnDefinitions="Auto,*" 
+              ColumnSpacing="12"> 
+            <TextBlock Grid.Column="0" 
+                       Text="File name:" 
+                       VerticalAlignment="Center"/> 
+            <TextBox Grid.Column="1" 
+                     Name="txtFileName" 
+                     PlaceholderText="Enter Excel Filename"
+                                 MinWidth="300"/> 
+        </Grid> 
+ 
+        <Grid ColumnDefinitions="*,*,*" 
+              ColumnSpacing="12"> 
+            <Button Grid.Column="0" 
+                    Name="btnCreate" 
+                    Content="Create File" 
+                    Click="CreateExcel_Click"/> 
+            <Button Grid.Column="1" 
+                    Name="btnWrite" 
+                    Content="Write Data" 
+                    Click="WriteExcel_Click"/> 
+            <Button Grid.Column="2" 
+                    Name="btnRead" 
+                    Content="Read Data" 
+                    Click="ReadExcel_Click"/> 
+         </Grid> 
+        <TextBox Name="txtOutput" 
+                 Height="50" 
+                 HorizontalAlignment="Stretch"/> 
+    </StackPanel> 
+</Window> 

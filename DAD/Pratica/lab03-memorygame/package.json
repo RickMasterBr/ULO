@@ -1,0 +1,8 @@
+{
+  "name": "lab03-memory-game",
+  "private": true,
+  "description": "Memory game with a REST API (Laravel), a WebSocket server and a Frontend developed with Vue.js.",
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  }
+}

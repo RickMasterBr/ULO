@@ -1,0 +1,72 @@
+# Build artifacts & dependencies
+node_modules/
+vendor/
+bin/
+obj/
+out/
+build/
+dist/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# IDE & editor
+.idea/
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+.claude/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs & caches
+*.log
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/testing/
+storage/framework/views/*.php
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Compiled / generated
+public/build/
+public/hot
+*.min.js
+*.min.css
+
+# OS
+$RECYCLE.BIN/
+
+# Large binary files (VMs, etc.)
+*.vmdk
+*.nvram
+*.vmx
+*.vmsd
+*.vmxf
+*.iso
+
+# Laravel specific
+storage/app/public/
+bootstrap/cache/*.php
+
+# .NET specific
+*.pdb
+*.cache
+packages/
+
+# Keep lock files? (uncomment if you want to ignore them)
+# package-lock.json
+# composer.lock

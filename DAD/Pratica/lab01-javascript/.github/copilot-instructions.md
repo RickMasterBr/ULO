@@ -1,0 +1,1 @@
+Follow the guardrails in `AGENTS.md` at the repo root — this is a student lab, not a repo to autocomplete solutions into. Don't generate full solutions to the numbered exercises in `README.md`; prefer hints, explanations, and questions over finished code. See `AGENTS.md` for the full rules.

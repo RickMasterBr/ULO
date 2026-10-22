@@ -1,0 +1,1775 @@
+Error on line 6 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:6: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 3 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:3: error: cannot find symbol
+import aed.ComparacaoLongs;
+          ^
+  symbol:   class ComparacaoLongs
+  location: package aed
+Error on line 7 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:7: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 4 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:4: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 5 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:5: error: package aed.modelo.pessoas.comparadores does not exist
+import aed.modelo.pessoas.comparadores.ComparacaoPessoasPorNomeAsc;
+                                      ^
+Error on line 5 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:5: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 5 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:5: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 6 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:6: error: package aed.modelo.pessoas.comparadores does not exist
+import aed.modelo.pessoas.comparadores.ComparacaoPessoasPorBIAsc;
+                                      ^
+Error on line 7 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:7: error: package aed.modelo.pessoas.comparadores does not exist
+import aed.modelo.pessoas.comparadores.ComparacaoPessoasPorNomeAsc;
+                                      ^
+Error on line 4 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:4: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 4 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:4: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 20 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:20: error: cannot find symbol
+        TabelaHash<Long, Pessoa> pessoasPorBI = new TabelaHash<>(5);
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:22: error: cannot find symbol
+        pessoasPorBI.inserir(3L, new Pessoa(3, "B"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 23 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:23: error: cannot find symbol
+        pessoasPorBI.inserir(2L, new Pessoa(2, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 26 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:26: error: cannot find symbol
+        pessoasPorBI.inserir(7L, new Pessoa(7, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 27 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:27: error: cannot find symbol
+        pessoasPorBI.inserir(13L, new Pessoa(13, "A"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 34 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:34: error: cannot find symbol
+        pessoasPorBI.inserir(12L, new Pessoa(12, "F"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 35 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:35: error: cannot find symbol
+        pessoasPorBI.inserir(23L, new Pessoa(23, "H"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:43: error: cannot find symbol
+        IteradorIteravel<Associacao<Long, Pessoa>> iterador = pessoasPorBI.iterador();
+                                          ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 46 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:46: error: cannot find symbol
+        Associacao<Long, Pessoa> a;
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 55 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:55: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorBI.iteradorValores()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:21: error: cannot find symbol
+        TabelaHashOrdenada<Long, Pessoa> pessoasPorBI =
+                                 ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:22: error: cannot find symbol
+                new TabelaHashOrdenada<>(ComparacaoLongs.CRITERIO, 5);
+                                         ^
+  symbol:   variable ComparacaoLongs
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 24 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:24: error: cannot find symbol
+        pessoasPorBI.inserir(3L, new Pessoa(3, "B"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 25 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:25: error: cannot find symbol
+        pessoasPorBI.inserir(2L, new Pessoa(2, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 28 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:28: error: cannot find symbol
+        pessoasPorBI.inserir(7L, new Pessoa(7, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 29 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:29: error: cannot find symbol
+        pessoasPorBI.inserir(13L, new Pessoa(13, "A"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 36 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:36: error: cannot find symbol
+        pessoasPorBI.inserir(12L, new Pessoa(12, "F"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 37 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:37: error: cannot find symbol
+        pessoasPorBI.inserir(23L, new Pessoa(23, "H"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 45 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:45: error: cannot find symbol
+        IteradorIteravelDuplo<Associacao<Long, Pessoa>> iterador = pessoasPorBI.iterador();
+                                               ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 48 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:48: error: cannot find symbol
+        Associacao<Long, Pessoa> a;
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 57 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:57: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorBI.iteradorValores()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 10 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:10: error: cannot find symbol
+        ArvoreBinaria<Pessoa> pessoasPorNome = new ArvoreBinaria<>(ComparacaoPessoasPorNomeAsc.CRITERIO);
+                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 10 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:10: error: cannot find symbol
+        ArvoreBinaria<Pessoa> pessoasPorNome = new ArvoreBinaria<>(ComparacaoPessoasPorNomeAsc.CRITERIO);
+                                                                   ^
+  symbol:   variable ComparacaoPessoasPorNomeAsc
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:12: error: cannot find symbol
+        Pessoa[] pessoas = {
+        ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 13 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:13: error: cannot find symbol
+                new Pessoa(3, "P"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 14 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:14: error: cannot find symbol
+                new Pessoa(8, "F"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 15 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:15: error: cannot find symbol
+                new Pessoa(2, "M"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 16 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:16: error: cannot find symbol
+                new Pessoa(1, "T"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 17 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:17: error: cannot find symbol
+                new Pessoa(7, "A"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 18 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:18: error: cannot find symbol
+                new Pessoa(4, "R"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 19 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:19: error: cannot find symbol
+                new Pessoa(10, "Q"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 20 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:20: error: cannot find symbol
+                new Pessoa(5, "I"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:21: error: cannot find symbol
+                new Pessoa(13, "X"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:22: error: cannot find symbol
+                new Pessoa(11, "Z")
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 26 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:26: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(6, "D"));
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 28 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:28: error: cannot find symbol
+        for (Pessoa pessoa : pessoas) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 33 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:33: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorPreOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 38 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:38: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorEmOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:43: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "B"), new Pessoa(0, "R"))) {
+                                                          ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:43: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "B"), new Pessoa(0, "R"))) {
+                                                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:43: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "B"), new Pessoa(0, "R"))) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 48 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:48: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorPosOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 53 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:53: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorPorNiveis()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:60: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(7, "A")); // Caso sem filhos
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 61 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:61: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(2, "M")); // Caso apenas com filho à esquerda
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 62 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:62: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(8, "F")); // Caso apenas com filho à direita
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 63 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:63: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(3, "P")); // Caso com dois filhos em que paiMenorElemento != filho
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 67 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:67: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorEmOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 20 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:20: error: cannot find symbol
+        Pessoa p;
+        ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:21: error: cannot find symbol
+        ListaNaoOrdenada<Pessoa> pessoas = new ListaNaoOrdenada<>();
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 23 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:23: error: cannot find symbol
+        p = new Pessoa(3, "B");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 26 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:26: error: cannot find symbol
+        p = new Pessoa(1, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 29 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:29: error: cannot find symbol
+        p = new Pessoa(1, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 32 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:32: error: cannot find symbol
+        p = new Pessoa(2, "A");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 38 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:38: error: cannot find symbol
+        for (Pessoa pessoa : pessoas) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 44 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:44: error: cannot find symbol
+        IteradorIteravelDuplo<Pessoa> iterador = pessoas.iterador();
+                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:21: error: cannot find symbol
+        Pessoa p;
+        ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:22: error: cannot find symbol
+        ListaOrdenada<Pessoa> pessoasPorBI = new ListaOrdenada<>(
+                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 23 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:23: error: cannot find symbol
+                ComparacaoPessoasPorBIAsc.CRITERIO);
+                ^
+  symbol:   variable ComparacaoPessoasPorBIAsc
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 24 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:24: error: cannot find symbol
+        ListaOrdenada<Pessoa> pessoasPorNome = new ListaOrdenada<>(
+                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 25 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:25: error: cannot find symbol
+                ComparacaoPessoasPorNomeAsc.CRITERIO);
+                ^
+  symbol:   variable ComparacaoPessoasPorNomeAsc
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 27 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:27: error: cannot find symbol
+        p = new Pessoa(3, "B");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 30 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:30: error: cannot find symbol
+        p = new Pessoa(7, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 33 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:33: error: cannot find symbol
+        p = new Pessoa(5, "G");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 36 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:36: error: cannot find symbol
+        p = new Pessoa(1, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 44 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:44: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorBI) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 51 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:51: error: cannot find symbol
+        IteradorIteravelDuplo<Pessoa> iterador = pessoasPorNome.consultar(new Pessoa(0, "C"));
+                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 51 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:51: error: cannot find symbol
+        IteradorIteravelDuplo<Pessoa> iterador = pessoasPorNome.consultar(new Pessoa(0, "C"));
+                                                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:60: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "A"), new Pessoa(0, "E"))) {
+                                                          ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:60: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "A"), new Pessoa(0, "E"))) {
+                                                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:60: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "A"), new Pessoa(0, "E"))) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 65 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:65: error: cannot find symbol
+        iterador = pessoasPorBI.consultar(new Pessoa(2, ""), new Pessoa(6, ""));
+                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 65 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:65: error: cannot find symbol
+        iterador = pessoasPorBI.consultar(new Pessoa(2, ""), new Pessoa(6, ""));
+                                                                 ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 9 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:9: error: cannot find symbol
+        Fila<Pessoa> pessoas = new Fila<>();
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 11 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:11: error: cannot find symbol
+        pessoas.inserir(new Pessoa(3, "B"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:12: error: cannot find symbol
+        pessoas.inserir(new Pessoa(1, "C"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 13 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:13: error: cannot find symbol
+        pessoas.inserir(new Pessoa(2, "A"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 9 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:9: error: cannot find symbol
+        Pilha<Pessoa> pessoas = new Pilha<>();
+              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line 11 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:11: error: cannot find symbol
+        pessoas.inserir(new Pessoa(3, "B"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:12: error: cannot find symbol
+        pessoas.inserir(new Pessoa(1, "C"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line 13 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:13: error: cannot find symbol
+        pessoas.inserir(new Pessoa(2, "A"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 6 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:6: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 3 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:3: error: cannot find symbol
+import aed.ComparacaoLongs;
+          ^
+  symbol:   class ComparacaoLongs
+  location: package aed
+Error on line 7 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:7: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 4 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:4: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 5 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:5: error: package aed.modelo.pessoas.comparadores does not exist
+import aed.modelo.pessoas.comparadores.ComparacaoPessoasPorNomeAsc;
+                                      ^
+Error on line 5 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:5: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 5 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:5: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 6 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:6: error: package aed.modelo.pessoas.comparadores does not exist
+import aed.modelo.pessoas.comparadores.ComparacaoPessoasPorBIAsc;
+                                      ^
+Error on line 7 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:7: error: package aed.modelo.pessoas.comparadores does not exist
+import aed.modelo.pessoas.comparadores.ComparacaoPessoasPorNomeAsc;
+                                      ^
+Error on line 4 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:4: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 4 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:4: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 20 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:20: error: cannot find symbol
+        TabelaHash<Long, Pessoa> pessoasPorBI = new TabelaHash<>(5);
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:22: error: cannot find symbol
+        pessoasPorBI.inserir(3L, new Pessoa(3, "B"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 23 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:23: error: cannot find symbol
+        pessoasPorBI.inserir(2L, new Pessoa(2, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 26 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:26: error: cannot find symbol
+        pessoasPorBI.inserir(7L, new Pessoa(7, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 27 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:27: error: cannot find symbol
+        pessoasPorBI.inserir(13L, new Pessoa(13, "A"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 34 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:34: error: cannot find symbol
+        pessoasPorBI.inserir(12L, new Pessoa(12, "F"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 35 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:35: error: cannot find symbol
+        pessoasPorBI.inserir(23L, new Pessoa(23, "H"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:43: error: cannot find symbol
+        IteradorIteravel<Associacao<Long, Pessoa>> iterador = pessoasPorBI.iterador();
+                                          ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 46 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:46: error: cannot find symbol
+        Associacao<Long, Pessoa> a;
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 55 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:55: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorBI.iteradorValores()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:21: error: cannot find symbol
+        TabelaHashOrdenada<Long, Pessoa> pessoasPorBI =
+                                 ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:22: error: cannot find symbol
+                new TabelaHashOrdenada<>(ComparacaoLongs.CRITERIO, 5);
+                                         ^
+  symbol:   variable ComparacaoLongs
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 24 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:24: error: cannot find symbol
+        pessoasPorBI.inserir(3L, new Pessoa(3, "B"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 25 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:25: error: cannot find symbol
+        pessoasPorBI.inserir(2L, new Pessoa(2, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 28 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:28: error: cannot find symbol
+        pessoasPorBI.inserir(7L, new Pessoa(7, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 29 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:29: error: cannot find symbol
+        pessoasPorBI.inserir(13L, new Pessoa(13, "A"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 36 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:36: error: cannot find symbol
+        pessoasPorBI.inserir(12L, new Pessoa(12, "F"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 37 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:37: error: cannot find symbol
+        pessoasPorBI.inserir(23L, new Pessoa(23, "H"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 45 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:45: error: cannot find symbol
+        IteradorIteravelDuplo<Associacao<Long, Pessoa>> iterador = pessoasPorBI.iterador();
+                                               ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 48 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:48: error: cannot find symbol
+        Associacao<Long, Pessoa> a;
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 57 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:57: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorBI.iteradorValores()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 10 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:10: error: cannot find symbol
+        ArvoreBinaria<Pessoa> pessoasPorNome = new ArvoreBinaria<>(ComparacaoPessoasPorNomeAsc.CRITERIO);
+                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 10 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:10: error: cannot find symbol
+        ArvoreBinaria<Pessoa> pessoasPorNome = new ArvoreBinaria<>(ComparacaoPessoasPorNomeAsc.CRITERIO);
+                                                                   ^
+  symbol:   variable ComparacaoPessoasPorNomeAsc
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:12: error: cannot find symbol
+        Pessoa[] pessoas = {
+        ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 13 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:13: error: cannot find symbol
+                new Pessoa(3, "P"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 14 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:14: error: cannot find symbol
+                new Pessoa(8, "F"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 15 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:15: error: cannot find symbol
+                new Pessoa(2, "M"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 16 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:16: error: cannot find symbol
+                new Pessoa(1, "T"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 17 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:17: error: cannot find symbol
+                new Pessoa(7, "A"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 18 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:18: error: cannot find symbol
+                new Pessoa(4, "R"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 19 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:19: error: cannot find symbol
+                new Pessoa(10, "Q"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 20 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:20: error: cannot find symbol
+                new Pessoa(5, "I"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:21: error: cannot find symbol
+                new Pessoa(13, "X"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:22: error: cannot find symbol
+                new Pessoa(11, "Z")
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 26 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:26: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(6, "D"));
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 28 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:28: error: cannot find symbol
+        for (Pessoa pessoa : pessoas) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 33 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:33: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorPreOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 38 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:38: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorEmOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:43: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "B"), new Pessoa(0, "R"))) {
+                                                          ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:43: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "B"), new Pessoa(0, "R"))) {
+                                                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:43: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "B"), new Pessoa(0, "R"))) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 48 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:48: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorPosOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 53 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:53: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorPorNiveis()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:60: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(7, "A")); // Caso sem filhos
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 61 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:61: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(2, "M")); // Caso apenas com filho à esquerda
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 62 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:62: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(8, "F")); // Caso apenas com filho à direita
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 63 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:63: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(3, "P")); // Caso com dois filhos em que paiMenorElemento != filho
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 67 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:67: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorEmOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 20 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:20: error: cannot find symbol
+        Pessoa p;
+        ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:21: error: cannot find symbol
+        ListaNaoOrdenada<Pessoa> pessoas = new ListaNaoOrdenada<>();
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 23 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:23: error: cannot find symbol
+        p = new Pessoa(3, "B");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 26 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:26: error: cannot find symbol
+        p = new Pessoa(1, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 29 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:29: error: cannot find symbol
+        p = new Pessoa(1, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 32 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:32: error: cannot find symbol
+        p = new Pessoa(2, "A");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 38 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:38: error: cannot find symbol
+        for (Pessoa pessoa : pessoas) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 44 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:44: error: cannot find symbol
+        IteradorIteravelDuplo<Pessoa> iterador = pessoas.iterador();
+                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:21: error: cannot find symbol
+        Pessoa p;
+        ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:22: error: cannot find symbol
+        ListaOrdenada<Pessoa> pessoasPorBI = new ListaOrdenada<>(
+                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 23 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:23: error: cannot find symbol
+                ComparacaoPessoasPorBIAsc.CRITERIO);
+                ^
+  symbol:   variable ComparacaoPessoasPorBIAsc
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 24 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:24: error: cannot find symbol
+        ListaOrdenada<Pessoa> pessoasPorNome = new ListaOrdenada<>(
+                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 25 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:25: error: cannot find symbol
+                ComparacaoPessoasPorNomeAsc.CRITERIO);
+                ^
+  symbol:   variable ComparacaoPessoasPorNomeAsc
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 27 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:27: error: cannot find symbol
+        p = new Pessoa(3, "B");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 30 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:30: error: cannot find symbol
+        p = new Pessoa(7, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 33 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:33: error: cannot find symbol
+        p = new Pessoa(5, "G");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 36 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:36: error: cannot find symbol
+        p = new Pessoa(1, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 44 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:44: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorBI) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 51 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:51: error: cannot find symbol
+        IteradorIteravelDuplo<Pessoa> iterador = pessoasPorNome.consultar(new Pessoa(0, "C"));
+                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 51 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:51: error: cannot find symbol
+        IteradorIteravelDuplo<Pessoa> iterador = pessoasPorNome.consultar(new Pessoa(0, "C"));
+                                                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:60: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "A"), new Pessoa(0, "E"))) {
+                                                          ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:60: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "A"), new Pessoa(0, "E"))) {
+                                                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:60: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "A"), new Pessoa(0, "E"))) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 65 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:65: error: cannot find symbol
+        iterador = pessoasPorBI.consultar(new Pessoa(2, ""), new Pessoa(6, ""));
+                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 65 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:65: error: cannot find symbol
+        iterador = pessoasPorBI.consultar(new Pessoa(2, ""), new Pessoa(6, ""));
+                                                                 ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 9 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:9: error: cannot find symbol
+        Fila<Pessoa> pessoas = new Fila<>();
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 11 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:11: error: cannot find symbol
+        pessoas.inserir(new Pessoa(3, "B"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:12: error: cannot find symbol
+        pessoas.inserir(new Pessoa(1, "C"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 13 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:13: error: cannot find symbol
+        pessoas.inserir(new Pessoa(2, "A"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 9 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:9: error: cannot find symbol
+        Pilha<Pessoa> pessoas = new Pilha<>();
+              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line 11 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:11: error: cannot find symbol
+        pessoas.inserir(new Pessoa(3, "B"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:12: error: cannot find symbol
+        pessoas.inserir(new Pessoa(1, "C"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line 13 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:13: error: cannot find symbol
+        pessoas.inserir(new Pessoa(2, "A"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 6 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:6: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 3 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:3: error: cannot find symbol
+import aed.ComparacaoLongs;
+          ^
+  symbol:   class ComparacaoLongs
+  location: package aed
+Error on line 7 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:7: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 4 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:4: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 5 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:5: error: package aed.modelo.pessoas.comparadores does not exist
+import aed.modelo.pessoas.comparadores.ComparacaoPessoasPorNomeAsc;
+                                      ^
+Error on line 5 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:5: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 5 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:5: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 6 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:6: error: package aed.modelo.pessoas.comparadores does not exist
+import aed.modelo.pessoas.comparadores.ComparacaoPessoasPorBIAsc;
+                                      ^
+Error on line 7 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:7: error: package aed.modelo.pessoas.comparadores does not exist
+import aed.modelo.pessoas.comparadores.ComparacaoPessoasPorNomeAsc;
+                                      ^
+Error on line 4 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:4: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 4 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:4: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 20 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:20: error: cannot find symbol
+        TabelaHash<Long, Pessoa> pessoasPorBI = new TabelaHash<>(5);
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:22: error: cannot find symbol
+        pessoasPorBI.inserir(3L, new Pessoa(3, "B"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 23 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:23: error: cannot find symbol
+        pessoasPorBI.inserir(2L, new Pessoa(2, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 26 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:26: error: cannot find symbol
+        pessoasPorBI.inserir(7L, new Pessoa(7, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 27 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:27: error: cannot find symbol
+        pessoasPorBI.inserir(13L, new Pessoa(13, "A"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 34 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:34: error: cannot find symbol
+        pessoasPorBI.inserir(12L, new Pessoa(12, "F"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 35 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:35: error: cannot find symbol
+        pessoasPorBI.inserir(23L, new Pessoa(23, "H"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:43: error: cannot find symbol
+        IteradorIteravel<Associacao<Long, Pessoa>> iterador = pessoasPorBI.iterador();
+                                          ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 46 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:46: error: cannot find symbol
+        Associacao<Long, Pessoa> a;
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 55 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:55: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorBI.iteradorValores()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:21: error: cannot find symbol
+        TabelaHashOrdenada<Long, Pessoa> pessoasPorBI =
+                                 ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:22: error: cannot find symbol
+                new TabelaHashOrdenada<>(ComparacaoLongs.CRITERIO, 5);
+                                         ^
+  symbol:   variable ComparacaoLongs
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 24 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:24: error: cannot find symbol
+        pessoasPorBI.inserir(3L, new Pessoa(3, "B"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 25 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:25: error: cannot find symbol
+        pessoasPorBI.inserir(2L, new Pessoa(2, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 28 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:28: error: cannot find symbol
+        pessoasPorBI.inserir(7L, new Pessoa(7, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 29 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:29: error: cannot find symbol
+        pessoasPorBI.inserir(13L, new Pessoa(13, "A"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 36 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:36: error: cannot find symbol
+        pessoasPorBI.inserir(12L, new Pessoa(12, "F"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 37 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:37: error: cannot find symbol
+        pessoasPorBI.inserir(23L, new Pessoa(23, "H"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 45 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:45: error: cannot find symbol
+        IteradorIteravelDuplo<Associacao<Long, Pessoa>> iterador = pessoasPorBI.iterador();
+                                               ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 48 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:48: error: cannot find symbol
+        Associacao<Long, Pessoa> a;
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 57 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:57: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorBI.iteradorValores()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 10 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:10: error: cannot find symbol
+        ArvoreBinaria<Pessoa> pessoasPorNome = new ArvoreBinaria<>(ComparacaoPessoasPorNomeAsc.CRITERIO);
+                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 10 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:10: error: cannot find symbol
+        ArvoreBinaria<Pessoa> pessoasPorNome = new ArvoreBinaria<>(ComparacaoPessoasPorNomeAsc.CRITERIO);
+                                                                   ^
+  symbol:   variable ComparacaoPessoasPorNomeAsc
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:12: error: cannot find symbol
+        Pessoa[] pessoas = {
+        ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 13 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:13: error: cannot find symbol
+                new Pessoa(3, "P"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 14 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:14: error: cannot find symbol
+                new Pessoa(8, "F"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 15 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:15: error: cannot find symbol
+                new Pessoa(2, "M"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 16 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:16: error: cannot find symbol
+                new Pessoa(1, "T"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 17 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:17: error: cannot find symbol
+                new Pessoa(7, "A"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 18 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:18: error: cannot find symbol
+                new Pessoa(4, "R"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 19 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:19: error: cannot find symbol
+                new Pessoa(10, "Q"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 20 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:20: error: cannot find symbol
+                new Pessoa(5, "I"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:21: error: cannot find symbol
+                new Pessoa(13, "X"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:22: error: cannot find symbol
+                new Pessoa(11, "Z")
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 26 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:26: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(6, "D"));
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 28 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:28: error: cannot find symbol
+        for (Pessoa pessoa : pessoas) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 33 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:33: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorPreOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 38 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:38: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorEmOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:43: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "B"), new Pessoa(0, "R"))) {
+                                                          ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:43: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "B"), new Pessoa(0, "R"))) {
+                                                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:43: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "B"), new Pessoa(0, "R"))) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 48 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:48: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorPosOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 53 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:53: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorPorNiveis()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:60: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(7, "A")); // Caso sem filhos
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 61 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:61: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(2, "M")); // Caso apenas com filho à esquerda
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 62 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:62: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(8, "F")); // Caso apenas com filho à direita
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 63 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:63: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(3, "P")); // Caso com dois filhos em que paiMenorElemento != filho
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 67 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:67: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorEmOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 20 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:20: error: cannot find symbol
+        Pessoa p;
+        ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:21: error: cannot find symbol
+        ListaNaoOrdenada<Pessoa> pessoas = new ListaNaoOrdenada<>();
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 23 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:23: error: cannot find symbol
+        p = new Pessoa(3, "B");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 26 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:26: error: cannot find symbol
+        p = new Pessoa(1, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 29 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:29: error: cannot find symbol
+        p = new Pessoa(1, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 32 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:32: error: cannot find symbol
+        p = new Pessoa(2, "A");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 38 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:38: error: cannot find symbol
+        for (Pessoa pessoa : pessoas) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 44 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:44: error: cannot find symbol
+        IteradorIteravelDuplo<Pessoa> iterador = pessoas.iterador();
+                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:21: error: cannot find symbol
+        Pessoa p;
+        ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:22: error: cannot find symbol
+        ListaOrdenada<Pessoa> pessoasPorBI = new ListaOrdenada<>(
+                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 23 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:23: error: cannot find symbol
+                ComparacaoPessoasPorBIAsc.CRITERIO);
+                ^
+  symbol:   variable ComparacaoPessoasPorBIAsc
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 24 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:24: error: cannot find symbol
+        ListaOrdenada<Pessoa> pessoasPorNome = new ListaOrdenada<>(
+                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 25 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:25: error: cannot find symbol
+                ComparacaoPessoasPorNomeAsc.CRITERIO);
+                ^
+  symbol:   variable ComparacaoPessoasPorNomeAsc
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 27 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:27: error: cannot find symbol
+        p = new Pessoa(3, "B");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 30 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:30: error: cannot find symbol
+        p = new Pessoa(7, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 33 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:33: error: cannot find symbol
+        p = new Pessoa(5, "G");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 36 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:36: error: cannot find symbol
+        p = new Pessoa(1, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 44 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:44: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorBI) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 51 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:51: error: cannot find symbol
+        IteradorIteravelDuplo<Pessoa> iterador = pessoasPorNome.consultar(new Pessoa(0, "C"));
+                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 51 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:51: error: cannot find symbol
+        IteradorIteravelDuplo<Pessoa> iterador = pessoasPorNome.consultar(new Pessoa(0, "C"));
+                                                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:60: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "A"), new Pessoa(0, "E"))) {
+                                                          ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:60: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "A"), new Pessoa(0, "E"))) {
+                                                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:60: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "A"), new Pessoa(0, "E"))) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 65 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:65: error: cannot find symbol
+        iterador = pessoasPorBI.consultar(new Pessoa(2, ""), new Pessoa(6, ""));
+                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 65 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:65: error: cannot find symbol
+        iterador = pessoasPorBI.consultar(new Pessoa(2, ""), new Pessoa(6, ""));
+                                                                 ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 9 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:9: error: cannot find symbol
+        Fila<Pessoa> pessoas = new Fila<>();
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 11 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:11: error: cannot find symbol
+        pessoas.inserir(new Pessoa(3, "B"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:12: error: cannot find symbol
+        pessoas.inserir(new Pessoa(1, "C"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 13 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:13: error: cannot find symbol
+        pessoas.inserir(new Pessoa(2, "A"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 9 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:9: error: cannot find symbol
+        Pilha<Pessoa> pessoas = new Pilha<>();
+              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line 11 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:11: error: cannot find symbol
+        pessoas.inserir(new Pessoa(3, "B"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:12: error: cannot find symbol
+        pessoas.inserir(new Pessoa(1, "C"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line 13 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:13: error: cannot find symbol
+        pessoas.inserir(new Pessoa(2, "A"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+Error on line 6 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:6: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 3 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:3: error: cannot find symbol
+import aed.ComparacaoLongs;
+          ^
+  symbol:   class ComparacaoLongs
+  location: package aed
+Error on line 7 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:7: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 4 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:4: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 5 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:5: error: package aed.modelo.pessoas.comparadores does not exist
+import aed.modelo.pessoas.comparadores.ComparacaoPessoasPorNomeAsc;
+                                      ^
+Error on line 5 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:5: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 5 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:5: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 6 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:6: error: package aed.modelo.pessoas.comparadores does not exist
+import aed.modelo.pessoas.comparadores.ComparacaoPessoasPorBIAsc;
+                                      ^
+Error on line 7 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:7: error: package aed.modelo.pessoas.comparadores does not exist
+import aed.modelo.pessoas.comparadores.ComparacaoPessoasPorNomeAsc;
+                                      ^
+Error on line 4 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:4: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 4 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:4: error: package aed.modelo.pessoas does not exist
+import aed.modelo.pessoas.Pessoa;
+                         ^
+Error on line 20 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:20: error: cannot find symbol
+        TabelaHash<Long, Pessoa> pessoasPorBI = new TabelaHash<>(5);
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:22: error: cannot find symbol
+        pessoasPorBI.inserir(3L, new Pessoa(3, "B"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 23 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:23: error: cannot find symbol
+        pessoasPorBI.inserir(2L, new Pessoa(2, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 26 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:26: error: cannot find symbol
+        pessoasPorBI.inserir(7L, new Pessoa(7, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 27 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:27: error: cannot find symbol
+        pessoasPorBI.inserir(13L, new Pessoa(13, "A"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 34 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:34: error: cannot find symbol
+        pessoasPorBI.inserir(12L, new Pessoa(12, "F"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 35 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:35: error: cannot find symbol
+        pessoasPorBI.inserir(23L, new Pessoa(23, "H"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:43: error: cannot find symbol
+        IteradorIteravel<Associacao<Long, Pessoa>> iterador = pessoasPorBI.iterador();
+                                          ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 46 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:46: error: cannot find symbol
+        Associacao<Long, Pessoa> a;
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 55 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHash.java:55: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorBI.iteradorValores()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHash
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:21: error: cannot find symbol
+        TabelaHashOrdenada<Long, Pessoa> pessoasPorBI =
+                                 ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:22: error: cannot find symbol
+                new TabelaHashOrdenada<>(ComparacaoLongs.CRITERIO, 5);
+                                         ^
+  symbol:   variable ComparacaoLongs
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 24 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:24: error: cannot find symbol
+        pessoasPorBI.inserir(3L, new Pessoa(3, "B"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 25 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:25: error: cannot find symbol
+        pessoasPorBI.inserir(2L, new Pessoa(2, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 28 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:28: error: cannot find symbol
+        pessoasPorBI.inserir(7L, new Pessoa(7, "C"));
+                                     ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 29 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:29: error: cannot find symbol
+        pessoasPorBI.inserir(13L, new Pessoa(13, "A"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 36 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:36: error: cannot find symbol
+        pessoasPorBI.inserir(12L, new Pessoa(12, "F"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 37 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:37: error: cannot find symbol
+        pessoasPorBI.inserir(23L, new Pessoa(23, "H"));
+                                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 45 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:45: error: cannot find symbol
+        IteradorIteravelDuplo<Associacao<Long, Pessoa>> iterador = pessoasPorBI.iterador();
+                                               ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 48 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:48: error: cannot find symbol
+        Associacao<Long, Pessoa> a;
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 57 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\associativas\utilizacao\MainTeoricaTabelaHashOrdenada.java:57: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorBI.iteradorValores()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.associativas.utilizacao.MainTeoricaTabelaHashOrdenada
+Error on line 10 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:10: error: cannot find symbol
+        ArvoreBinaria<Pessoa> pessoasPorNome = new ArvoreBinaria<>(ComparacaoPessoasPorNomeAsc.CRITERIO);
+                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 10 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:10: error: cannot find symbol
+        ArvoreBinaria<Pessoa> pessoasPorNome = new ArvoreBinaria<>(ComparacaoPessoasPorNomeAsc.CRITERIO);
+                                                                   ^
+  symbol:   variable ComparacaoPessoasPorNomeAsc
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:12: error: cannot find symbol
+        Pessoa[] pessoas = {
+        ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 13 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:13: error: cannot find symbol
+                new Pessoa(3, "P"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 14 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:14: error: cannot find symbol
+                new Pessoa(8, "F"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 15 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:15: error: cannot find symbol
+                new Pessoa(2, "M"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 16 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:16: error: cannot find symbol
+                new Pessoa(1, "T"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 17 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:17: error: cannot find symbol
+                new Pessoa(7, "A"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 18 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:18: error: cannot find symbol
+                new Pessoa(4, "R"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 19 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:19: error: cannot find symbol
+                new Pessoa(10, "Q"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 20 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:20: error: cannot find symbol
+                new Pessoa(5, "I"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:21: error: cannot find symbol
+                new Pessoa(13, "X"),
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:22: error: cannot find symbol
+                new Pessoa(11, "Z")
+                    ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 26 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:26: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(6, "D"));
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 28 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:28: error: cannot find symbol
+        for (Pessoa pessoa : pessoas) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 33 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:33: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorPreOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 38 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:38: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorEmOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:43: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "B"), new Pessoa(0, "R"))) {
+                                                          ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:43: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "B"), new Pessoa(0, "R"))) {
+                                                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 43 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:43: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "B"), new Pessoa(0, "R"))) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 48 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:48: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorPosOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 53 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:53: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorPorNiveis()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:60: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(7, "A")); // Caso sem filhos
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 61 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:61: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(2, "M")); // Caso apenas com filho à esquerda
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 62 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:62: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(8, "F")); // Caso apenas com filho à direita
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 63 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:63: error: cannot find symbol
+        pessoasPorNome.remover(new Pessoa(3, "P")); // Caso com dois filhos em que paiMenorElemento != filho
+                                   ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 67 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaArvoreBinaria.java:67: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.iteradorEmOrdem()) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaArvoreBinaria
+Error on line 20 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:20: error: cannot find symbol
+        Pessoa p;
+        ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:21: error: cannot find symbol
+        ListaNaoOrdenada<Pessoa> pessoas = new ListaNaoOrdenada<>();
+                         ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 23 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:23: error: cannot find symbol
+        p = new Pessoa(3, "B");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 26 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:26: error: cannot find symbol
+        p = new Pessoa(1, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 29 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:29: error: cannot find symbol
+        p = new Pessoa(1, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 32 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:32: error: cannot find symbol
+        p = new Pessoa(2, "A");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 38 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:38: error: cannot find symbol
+        for (Pessoa pessoa : pessoas) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 44 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaNaoOrdenada.java:44: error: cannot find symbol
+        IteradorIteravelDuplo<Pessoa> iterador = pessoas.iterador();
+                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaNaoOrdenada
+Error on line 21 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:21: error: cannot find symbol
+        Pessoa p;
+        ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 22 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:22: error: cannot find symbol
+        ListaOrdenada<Pessoa> pessoasPorBI = new ListaOrdenada<>(
+                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 23 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:23: error: cannot find symbol
+                ComparacaoPessoasPorBIAsc.CRITERIO);
+                ^
+  symbol:   variable ComparacaoPessoasPorBIAsc
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 24 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:24: error: cannot find symbol
+        ListaOrdenada<Pessoa> pessoasPorNome = new ListaOrdenada<>(
+                      ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 25 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:25: error: cannot find symbol
+                ComparacaoPessoasPorNomeAsc.CRITERIO);
+                ^
+  symbol:   variable ComparacaoPessoasPorNomeAsc
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 27 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:27: error: cannot find symbol
+        p = new Pessoa(3, "B");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 30 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:30: error: cannot find symbol
+        p = new Pessoa(7, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 33 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:33: error: cannot find symbol
+        p = new Pessoa(5, "G");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 36 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:36: error: cannot find symbol
+        p = new Pessoa(1, "C");
+                ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 44 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:44: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorBI) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 51 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:51: error: cannot find symbol
+        IteradorIteravelDuplo<Pessoa> iterador = pessoasPorNome.consultar(new Pessoa(0, "C"));
+                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 51 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:51: error: cannot find symbol
+        IteradorIteravelDuplo<Pessoa> iterador = pessoasPorNome.consultar(new Pessoa(0, "C"));
+                                                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:60: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "A"), new Pessoa(0, "E"))) {
+                                                          ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:60: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "A"), new Pessoa(0, "E"))) {
+                                                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 60 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:60: error: cannot find symbol
+        for (Pessoa pessoa : pessoasPorNome.consultar(new Pessoa(0, "A"), new Pessoa(0, "E"))) {
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 65 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:65: error: cannot find symbol
+        iterador = pessoasPorBI.consultar(new Pessoa(2, ""), new Pessoa(6, ""));
+                                              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 65 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\iteraveis\lineares\ordenadas\utilizacao\MainTeoricaListaOrdenada.java:65: error: cannot find symbol
+        iterador = pessoasPorBI.consultar(new Pessoa(2, ""), new Pessoa(6, ""));
+                                                                 ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.iteraveis.lineares.ordenadas.utilizacao.MainTeoricaListaOrdenada
+Error on line 9 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:9: error: cannot find symbol
+        Fila<Pessoa> pessoas = new Fila<>();
+             ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 11 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:11: error: cannot find symbol
+        pessoas.inserir(new Pessoa(3, "B"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:12: error: cannot find symbol
+        pessoas.inserir(new Pessoa(1, "C"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 13 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaFila.java:13: error: cannot find symbol
+        pessoas.inserir(new Pessoa(2, "A"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaFila
+Error on line 9 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:9: error: cannot find symbol
+        Pilha<Pessoa> pessoas = new Pilha<>();
+              ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line 11 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:11: error: cannot find symbol
+        pessoas.inserir(new Pessoa(3, "B"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:12: error: cannot find symbol
+        pessoas.inserir(new Pessoa(1, "C"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line 13 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\colecoes\naoiteraveis\utilizacao\MainTeoricaPilha.java:13: error: cannot find symbol
+        pessoas.inserir(new Pessoa(2, "A"));
+                            ^
+  symbol:   class Pessoa
+  location: class aed.colecoes.naoiteraveis.utilizacao.MainTeoricaPilha
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
+ClassNotFoundException: aed.modelo.contactos.Data
+ClassNotFoundException: aed.modelo.contactos.Data
+Error on line 12 in F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\src\aed\recursividade\algoritmos\Fatorial.java:12: error: error while writing aed.recursividade.algoritmos.Fatorial: F:\OneDrive - ULO\Aulas\2026_2027_AED\Práticas\Ficha Prática 1\Projeto Base AED\classes\aed\recursividade\algoritmos\Fatorial.class: The process cannot access the file because it is being used by another process
+public class Fatorial {
+       ^
+Error on line -1 in Note: Some input files use unchecked or unsafe operations.
+Error on line -1 in Note: Recompile with -Xlint:unchecked for details.
