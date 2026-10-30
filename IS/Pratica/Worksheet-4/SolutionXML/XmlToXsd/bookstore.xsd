@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+<xs:element name="bookstore" type="bookstoreType">  
+</xs:element>
+
+    <xs:complexType name="bookType">
+            <xs:sequence>
+              <xs:element name="title" type="xs:string" />
+              <xs:element name="author" type="xs:string" />
+              <xs:element name="year" type="yearType" />
+              <xs:element name="price" type="xs:decimal" />
+              <xs:element minOccurs="0" name="rate" type="rateType"/>
+              <xs:element minOccurs="0" name="bookformat" type="xs:string"/>
+            </xs:sequence>
+            <xs:attribute name="category" type="categoryType" use="required" />
+            <xs:attribute name="isbn" type="xs:string" use="optional"/>
+    </xs:complexType>
+
+    <xs:complexType name="bookstoreType">
+      <xs:sequence> 
+        <xs:element maxOccurs="unbounded" name="book" type="bookType"></xs:element>
+      </xs:sequence>
+    </xs:complexType>
+
+    <!--domain restrictions-->
+
+    <xs:simpleType name="categoryType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="WEB"/>
+            <xs:enumeration value="CHILDREN"/>
+            <xs:enumeration value="SCIENCE"/>
+            <xs:enumeration value="ROMANCE"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="rateType">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="1"></xs:minInclusive>
+            <xs:maxInclusive value="5"></xs:maxInclusive>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="yearType">
+        <xs:restriction base="xs:integer">
+            <xs:pattern value="[1-2][0-9][0-9][0-9]"></xs:pattern>
+        </xs:restriction>
+    </xs:simpleType>
+
+</xs:schema>

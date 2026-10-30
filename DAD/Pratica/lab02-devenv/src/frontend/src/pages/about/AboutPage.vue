@@ -21,9 +21,9 @@
             <p>
                 <strong>Message: </strong>
                 <!-- v-model sincroniza o input diretamente com a variável reativa 'message' -->
-                <input v-model="message" type="text" placeholder="Digite uma mensagem...">
+                <Input v-model="message" type="text" placeholder="Digite uma mensagem..."></Input>
                 <!-- @click chama a função sendMessage() ao clicar -->
-                <button @click="sendMessage">Send</button>
+                <Button @click="sendMessage">Send</Button>
             </p>
             <!-- Exibe o que o servidor Node.js devolveu via evento 'echo' -->
             <p><strong>Received: </strong>{{ received }}</p>
@@ -32,6 +32,10 @@
 </template>
 
 <script setup>
+
+import Button from "@/components/ui/button/Button.vue"
+import Input from "@/components/ui/input/Input.vue"
+
 import { ref, reactive, inject, onMounted } from "vue"
 
 // ==========================================

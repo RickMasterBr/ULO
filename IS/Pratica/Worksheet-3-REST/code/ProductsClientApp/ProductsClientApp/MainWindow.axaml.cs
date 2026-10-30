@@ -23,7 +23,7 @@ public partial class MainWindow : Window
             lstProducts.Items.Add($"Id: {item.Id} | {item.Name} | {item.Category} | {item.Price}");
         }
 
-        txtStatus.Text = "API call with producst.";
+        txtStatus.Text = "API call with products.";
     }
 
     private async void BtnGetSpecific_Click(object? sender, RoutedEventArgs e)
@@ -32,18 +32,94 @@ public partial class MainWindow : Window
         Product result = await api.Get(id);
     }
 
-    private void BtnCreate_Click(object? sender, RoutedEventArgs e)
+    private async void BtnCreate_Click(object? sender, RoutedEventArgs e)
     {
-        // Criar produto.
+        if (txtName.Text == "" || txtCategory.Text == "")
+        {
+            txtStatus.Text = "Empty fields! You need to define a name and category.";
+            return;
+        }
+
+        if (!decimal.TryParse(txtPrice.Text, out decimal myPrice))
+        {
+            txtStatus.Text = "Price field incorrect!";
+        }
+
+        Product prod = new()
+        {
+            Id = 0,
+            Name = txtName.Text,
+            Category = txtCategory.Text,
+            Price = myPrice
+        };
+
+        Product? p = await api.Create(prod);
+
+        if( p == null)
+        {
+            
+        }
+
     }
 
-    private void BtnGetUpdate_Click(object? sender, RoutedEventArgs e)
+    private async void BtnGetUpdate_Click(object? sender, RoutedEventArgs e)
     {
-        // Atualizar produto.
+
+        if(!int.TryParse(txtId.Text, out int idProd))
+        {
+            txtStatus.Text = "You must enter a valid Id Prod";
+            return;
+        }
+
+        if (txtName.Text == "" || txtCategory.Text == "")
+        {
+            txtStatus.Text = "Empty fields! You need to define a name and category.";
+            return;
+        }
+
+        if (!decimal.TryParse(txtPrice.Text, out decimal myPrice))
+        {
+            txtStatus.Text = "Price field incorrect!";
+        }
+
+        Product prod = new()
+        {
+            Id = idProd,
+            Name = txtName.Text,
+            Category = txtCategory.Text,
+            Price = myPrice
+        };
+
+        Product? p = await api.Update(idProd, prod);
+
+        if( p == null)
+        {
+            txtStatus.Text = "Product was not updated";
+        } else
+        {
+            txtStatus.Text = "Product updated";
+        }
+
     }
 
-    private void BtnDelete_Click(object? sender, RoutedEventArgs e)
+    private async void BtnDelete_Click(object? sender, RoutedEventArgs e)
     {
-        // Excluir produto.
+        
+        if(!int.TryParse(txtId.Text, out int idProd))
+        {
+            txtStatus.Text = "You must enter a valid Id Prod";
+            return;
+        }
+
+        bool result = await api.Delete(idProd);
+
+        if (result)
+        {
+            txtStatus.Text = "Product deleted";
+        } else
+        {
+            txtStatus.Text = "Product was not deleted";
+        }
+
     }
 }

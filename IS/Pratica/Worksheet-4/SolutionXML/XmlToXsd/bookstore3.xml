@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bookstore> // essa aqui é a raiz, o root
+  <book category="CHILDREN"> // unico atributo aqui é o "category" !!!
+    <title>Charlotte's Web</title>
+    <author>E.B. White</author>
+    <year>1952</year>
+    <price>13.60</price>
+    <publisher>FCA</publisher> // elemento novo
+  </book>
+  <book category="WEB">
+    <title>Beginning XML</title> // saber identificar oque é um elemento!!
+    <author>Joe Fawcett</author>
+    <year>2012</year>
+    <price>31.30</price>
+    <publisher>FCA</publisher>
+    <rate>4</rate>
+  </book>
+  <book category="WEB">
+    <title>Programming .NET Web Services</title>
+    <author>Alex Ferrara</author> // se o livro tem multiplos autores, o elemento autor se repete
+    <author>Marisa</author> // autor novo
+    <year>2002</year>
+    <price>38.36</price>
+    <publisher>FCA</publisher>
+    <rate>3</rate>
+  </book>
+</bookstore>

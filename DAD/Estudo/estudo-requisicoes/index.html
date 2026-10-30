@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Estudo de requisições</title>
+
+    <script src="/app.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>Buscar usuário</h1>
+
+        <p>Existem usuários com os IDs 1, 2 e 3.</p>
+
+        <form id="formulario">
+            <label for="usuario-id">ID do usuário:</label>
+
+            <input id="usuario-id" name="id" type="number" min="1" step="1" value="3" required>
+
+            <button id="botao-buscar" type="submit">
+                Buscar
+            </button>
+        </form>
+
+        <p id="mensagem" role="status" aria-live="polite"></p>
+
+        <section id="resultado" hidden>
+            <h2>Usuário encontrado</h2>
+
+            <p>Nome: <span id="nome"></span></p>
+            <p>E-mail: <span id="email"></span></p>
+        </section>
+    </main>
+</body>
+
+</html>

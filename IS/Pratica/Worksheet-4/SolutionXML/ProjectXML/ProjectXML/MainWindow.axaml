@@ -1,0 +1,194 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="900" d:DesignHeight="500"
+        SizeToContent="WidthAndHeight"
+        x:Class="ProjectXML.MainWindow"
+        Title="Worksheet 4 - XML/XSD and XPath">
+
+    <Grid Margin="10" RowDefinitions="Auto,Auto,Auto,Auto">
+        <!-- ===================================================== -->
+        <!-- TOP BUTTON in grid row 0-->
+        <!-- ===================================================== -->
+        <Button Grid.Row="0"
+                Content="Generate by code"
+                Width="220"
+                HorizontalAlignment="Left"
+                HorizontalContentAlignment="Center"
+                Click="GenerateByCode_Click"/>
+
+        <!-- ===================================================== -->
+        <!-- XML / XSD FILES in grid row 1 -->
+        <!-- ===================================================== -->
+        <StackPanel Grid.Row="1"
+                    Margin="0,15,0,15"
+                    Spacing="10">
+
+            <Grid ColumnDefinitions="80,*,90">
+
+                <TextBlock Text="XML File:"
+                           VerticalAlignment="Center"/>
+
+                <TextBox x:Name="txtXmlFile"
+                         Grid.Column="1"
+                         Margin="5,0"/>
+
+                <Button Grid.Column="2"
+                        Content="Open"
+                        Click="OpenXml_Click"/>
+
+            </Grid>
+
+            <Grid ColumnDefinitions="80,*,90"
+                  Margin="0,10,0,0">
+
+                <TextBlock Text="XSD File:"
+                           VerticalAlignment="Center"/>
+
+                <TextBox x:Name="txtXsdFile"
+                         Grid.Column="1"
+                         Margin="5,0"/>
+
+                <Button Grid.Column="2"
+                        Content="Open"
+                        Click="OpenXsd_Click"/>
+            </Grid>
+
+            <Button Content="Validate"
+                    Width="220"
+                    HorizontalAlignment="Left"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    Click="Validate_Click"/>
+
+        </StackPanel>
+
+        <!-- ===================================================== -->
+        <!-- MAIN AREA -->
+        <!-- ===================================================== -->
+        <Grid Grid.Row="2" ColumnDefinitions="320,20,*">
+
+            <!-- ===================================== -->
+            <!-- LEFT PANEL -->
+            <!-- ===================================== -->
+            <StackPanel Grid.Column="0">
+
+                <TextBlock Text="Book titles"
+                           FontWeight="Bold"
+                           Margin="0,0,0,8"/>
+
+                <ListBox x:Name="listBoxBookTitles"
+                         Height="220"
+                         SelectionChanged="listBoxBookTitles_SelectionChanged"/>
+
+                <Button Width="200"
+                        Content="Show Book Titles"
+                        HorizontalContentAlignment="Center"
+                        Margin="0,10,0,0" Click="GetTitles_Click"/>
+
+                <!-- EXTRA EXERCISE -->
+                <!-- Exercise 11 user interface -->
+                 <!-- <TextBlock Text="Books count by category:"  VerticalAlignment="Center" Margin="0,10,0,0" />
+                <TextBox x:Name="txtCategory"
+                         PlaceholderText="WEB, CHILDREN,..."
+                         Margin="0,10,0,0" />
+                <Button Content="Count" 
+                        Margin="0,10,0,0"
+                        Click="GetBooksCountCategory_Click"/> -->
+                <!-- End of user interface exercise 11 -->
+
+            </StackPanel>
+
+            <!-- Empty column = spacing -->
+
+            <!-- ===================================== -->
+            <!-- RIGHT PANEL -->
+            <!-- ===================================== -->
+            <Grid Grid.Column="2"
+                  RowDefinitions="Auto,15,Auto,*">
+
+                <TextBlock x:Name="txtSelectedTitle"
+                           Grid.Row="0"
+                           Text="Selected title: None"
+                           FontWeight="Bold"
+                           FontSize="15"
+                           TextWrapping="Wrap"
+                           Background="LightGray"/>
+
+                <!-- Update author -->
+                <GroupBox Grid.Row="2"
+                          Header="Update author"
+                          HorizontalAlignment="Stretch">
+
+                    <Grid Margin="10"
+                          ColumnDefinitions="Auto,*"
+                          RowDefinitions="Auto,Auto"
+                          ColumnSpacing="10"
+                          RowSpacing="10">
+
+                        <TextBlock Text="New author name:"
+                                   VerticalAlignment="Center"/>
+
+                        <TextBox x:Name="txtNewAuthor"
+                                 Grid.Column="1"/>
+
+                        <Button Grid.Row="1"
+                                Grid.Column="1"
+                                Content="Update Author"
+                                HorizontalAlignment="Right"
+                                Click="UpdateAuthor_Click"/>
+                    </Grid>
+                </GroupBox>
+
+                <!-- Rate / ISBN -->
+                <GroupBox Grid.Row="3"
+                          Margin="0,15,0,0"
+                          Header="Book Rate / ISBN"
+                          HorizontalAlignment="Stretch"
+                          VerticalAlignment="Top">
+
+                    <Grid Margin="10"
+                          ColumnDefinitions="Auto,120,20,Auto"
+                          RowDefinitions="Auto,Auto"
+                          ColumnSpacing="10"
+                          RowSpacing="10">
+
+                        <TextBlock Grid.Row="0"
+                                   Grid.Column="0"
+                                   Text="Rate:"
+                                   VerticalAlignment="Center"/>
+
+                        <NumericUpDown x:Name="numRate"
+                                       Grid.Row="0"
+                                       Grid.Column="1"
+                                       Minimum="1"
+                                       Maximum="5"
+                                       Increment="1"
+                                       Value="1"/>
+
+                        <Button Grid.Row="0"
+                                Grid.Column="3"
+                                Content="Add Rate"
+                                Click="AddRate_Click"/>
+
+                        <TextBlock Grid.Row="1"
+                                   Grid.Column="0"
+                                   Text="ISBN:"
+                                   VerticalAlignment="Center"/>
+
+                        <TextBox x:Name="txtISBN"
+                                 Grid.Row="1"
+                                 Grid.Column="1"
+                                 Grid.ColumnSpan="2"/>
+
+                        <Button Grid.Row="1"
+                                Grid.Column="3"
+                                Content="Add ISBN"
+                                Click="AddISBN_Click"/>
+                    </Grid>
+                </GroupBox>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>
