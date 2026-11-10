@@ -28,15 +28,48 @@ public class HandlerXML
     // Ex. 7
     //**********************************************
     public List<string> GetTitles()
+{
+    var titles = new List<string>();
+
+    XmlDocument doc = new XmlDocument();
+    doc.Load(XmlFilePath);
+
+    XmlNodeList? nodes = doc.SelectNodes("/bookstore/book/title");
+    if (nodes != null)
     {
-        throw new NotImplementedException();
+        foreach (XmlNode node in nodes)
+            titles.Add(node.InnerText);
     }
+
+    return titles;
+}
     //**********************************************
     // Ex. 8
     //**********************************************       
     public bool UpdateAuthorByTitle(string title, string author)
     {
-        throw new NotImplementedException();
+        try
+        {
+            XmlDocument doc = new();
+        doc.Load(XmlFilePath);
+
+        XmlNode? authorNode = doc.SelectSingleNode($"/bookstore/book[title=\"{title}\"]/author");
+
+        if (authorNode == null)
+            return false;
+
+        authorNode.InnerText = author;
+
+        doc.Save(XmlFilePath);
+
+        return true;
+        }
+
+        catch (SystemException)
+        {
+            return false;
+        }
+    
     }
 
     public void UpdateNode(string path, string value, string parentTag, string new_value)
@@ -48,14 +81,48 @@ public class HandlerXML
     //**********************************************  
     public bool AddRateToBook(string title, string rate)
     {
-        throw new NotImplementedException();
+         XmlDocument doc = new XmlDocument();
+    doc.Load(XmlFilePath);
+
+    XmlNode? book = doc.SelectSingleNode($"/bookstore/book[title=\"{title}\"]");
+    if (book == null)
+        return false;
+
+    XmlNode? rateNode = book.SelectSingleNode("rate");
+    if (rateNode != null)
+    {
+        rateNode.InnerText = rate;
     }
+    else
+    {
+        XmlElement newRate = doc.CreateElement("rate");
+        newRate.InnerText = rate;
+
+        XmlNode? format = book.SelectSingleNode("bookformat");
+        if (format != null)
+            book.InsertBefore(newRate, format);
+        else
+            book.AppendChild(newRate);
+    }
+
+    doc.Save(XmlFilePath);
+    return true;
+}
+    
     //**********************************************
     // Ex. 10 Add Attribute
     //**********************************************  
     public void AddAttributeISBNToBook(string title, string isbn)
     {
-        throw new NotImplementedException();
+         XmlDocument doc = new XmlDocument();
+    doc.Load(XmlFilePath);
+
+    XmlElement? book = doc.SelectSingleNode($"/bookstore/book[title=\"{title}\"]") as XmlElement;
+    if (book == null)
+        return;
+
+    book.SetAttribute("isbn", isbn);
+    doc.Save(XmlFilePath);
     }
 
 

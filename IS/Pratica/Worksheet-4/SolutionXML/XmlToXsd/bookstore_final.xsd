@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+  <xs:simpleType name="CategoryType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="WEB"/>
+      <xs:enumeration value="CHILDREN"/>
+      <xs:enumeration value="SCIENCE"/>
+      <xs:enumeration value="ROMANCE"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="RateType">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="5"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="YearType">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[0-9]{4}"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="BookFormatType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="paperback"/>
+      <xs:enumeration value="electronic book text"/>
+      <xs:enumeration value="hardback"/>
+      <xs:enumeration value="ebook"/>
+      <xs:enumeration value="loose-leaf"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:complexType name="BookType">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="author" type="xs:string" maxOccurs="unbounded"/>
+      <xs:element name="year" type="YearType"/>
+      <xs:element name="price" type="xs:decimal"/>
+      <xs:element name="rate" type="RateType" minOccurs="0"/>
+      <xs:element name="bookformat" type="BookFormatType" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute name="category" type="CategoryType" use="required"/>
+    <xs:attribute name="isbn" type="xs:string"/>
+  </xs:complexType>
+
+  <xs:complexType name="BookstoreType">
+    <xs:sequence>
+      <xs:element name="book" type="BookType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="bookstore" type="BookstoreType"/>
+</xs:schema>

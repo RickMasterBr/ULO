@@ -1,0 +1,272 @@
+opencollection: 1.0.0
+info:
+  name: DAD-Lab04
+config:
+  proxy:
+    inherit: true
+    config:
+      protocol: http
+      hostname: ''
+      port: ''
+      auth:
+        username: ''
+        password: ''
+      bypassProxy: ''
+items:
+  - info:
+      name: Lab02
+      type: folder
+      seq: 1
+    request:
+      auth: inherit
+    items:
+      - info:
+          name: Metadata
+          type: folder
+          seq: 1
+        request:
+          auth: inherit
+        items:
+          - info:
+              name: Get Metadata
+              type: http
+              seq: 1
+            http:
+              method: GET
+              url: '{{url}}/metadata'
+            settings:
+              encodeUrl: true
+              timeout: 0
+              followRedirects: true
+              maxRedirects: 5
+              forwardAuthorizationHeader: false
+  - info:
+      name: Lab04
+      type: folder
+      seq: 2
+    request:
+      auth: inherit
+    items:
+      - info:
+          name: Users
+          type: folder
+          seq: 3
+        request:
+          auth: inherit
+        items:
+          - info:
+              name: Create User
+              type: http
+              seq: 2
+            http:
+              method: POST
+              url: '{{url}}/users'
+              body:
+                type: json
+                data: |-
+                  {
+                    "name":"DAD User",
+                    "password":"1234",
+                    "email":"dad@example.com"
+                  }
+            settings:
+              encodeUrl: true
+              timeout: 0
+              followRedirects: true
+              maxRedirects: 5
+              forwardAuthorizationHeader: false
+          - info:
+              name: Get User
+              type: http
+              seq: 3
+            http:
+              method: GET
+              url: '{{url}}/users/1'
+            settings:
+              encodeUrl: true
+              timeout: 0
+              followRedirects: true
+              maxRedirects: 5
+              forwardAuthorizationHeader: false
+          - info:
+              name: List Users
+              type: http
+              seq: 1
+            http:
+              method: GET
+              url: '{{url}}/users'
+            settings:
+              encodeUrl: true
+              timeout: 0
+              followRedirects: true
+              maxRedirects: 5
+              forwardAuthorizationHeader: false
+      - info:
+          name: Games
+          type: folder
+          seq: 1
+        request:
+          auth: inherit
+        items:
+          - info:
+              name: Create Game
+              type: http
+              seq: 1
+            http:
+              method: POST
+              url: '{{url}}/games'
+              body:
+                type: json
+                data: |-
+                  {
+                    "type":"S",
+                    "status":"PE"
+                  }
+            settings:
+              encodeUrl: true
+              timeout: 0
+              followRedirects: true
+              maxRedirects: 5
+              forwardAuthorizationHeader: false
+          - info:
+              name: Get Game
+              type: http
+              seq: 2
+            http:
+              method: GET
+              url: '{{url}}/games/1'
+            settings:
+              encodeUrl: true
+              timeout: 0
+              followRedirects: true
+              maxRedirects: 5
+              forwardAuthorizationHeader: false
+          - info:
+              name: List Games
+              type: http
+              seq: 3
+            http:
+              method: GET
+              url: '{{url}}/games'
+            settings:
+              encodeUrl: true
+              timeout: 0
+              followRedirects: true
+              maxRedirects: 5
+              forwardAuthorizationHeader: false
+          - info:
+              name: Update Game
+              type: http
+              seq: 4
+            http:
+              method: PUT
+              url: '{{url}}/games/1'
+              body:
+                type: json
+                data: |-
+                  {
+                    "type":"S",
+                    "status":"E"
+                  }
+            settings:
+              encodeUrl: true
+              timeout: 0
+              followRedirects: true
+              maxRedirects: 5
+              forwardAuthorizationHeader: false
+      - info:
+          name: Auth
+          type: folder
+          seq: 2
+        request:
+          auth: inherit
+        items:
+          - info:
+              name: Get Me
+              type: http
+              seq: 1
+            http:
+              method: GET
+              url: '{{url}}/users/me'
+              headers:
+                - name: Authorization
+                  value: Bearer {{token}}
+            settings:
+              encodeUrl: true
+              timeout: 0
+              followRedirects: true
+              maxRedirects: 5
+              forwardAuthorizationHeader: false
+          - info:
+              name: Login DAD User
+              type: http
+              seq: 4
+            http:
+              method: POST
+              url: '{{url}}/login'
+              body:
+                type: json
+                data: |-
+                  {
+                    "email":"dad@example.com",
+                    "password":"1234"
+                  }
+            settings:
+              encodeUrl: true
+              timeout: 0
+              followRedirects: true
+              maxRedirects: 5
+              forwardAuthorizationHeader: false
+          - info:
+              name: Login
+              type: http
+              seq: 2
+            http:
+              method: POST
+              url: '{{url}}/login'
+              body:
+                type: json
+                data: |-
+                  {
+                    "email":"test@example.com",
+                    "password":"password"
+                  }
+            settings:
+              encodeUrl: true
+              timeout: 0
+              followRedirects: true
+              maxRedirects: 5
+              forwardAuthorizationHeader: false
+          - info:
+              name: Logout
+              type: http
+              seq: 3
+            http:
+              method: POST
+              url: '{{url}}/logout'
+              headers:
+                - name: Authorization
+                  value: Bearer {{token}}
+              body:
+                type: json
+                data: ''
+            settings:
+              encodeUrl: true
+              timeout: 0
+              followRedirects: true
+              maxRedirects: 5
+              forwardAuthorizationHeader: false
+request:
+  variables:
+    - name: url
+      value: ''
+    - name: token
+      value: ''
+bundled: true
+extensions:
+  bruno:
+    ignore:
+      - node_modules
+      - .git
+    exportedAt: '2026-10-29T20:34:01.691Z'
+    exportedUsing: Bruno

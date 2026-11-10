@@ -1,9 +1,12 @@
+using System;
 using System.Diagnostics;
 using System.Formats.Asn1;
 using System.Xml;
 using Avalonia.Controls;
 using Avalonia.Interactivity;
 using Avalonia.Platform.Storage;
+using MsBox.Avalonia;
+using MsBox.Avalonia.Enums;
 
 namespace ProjectXML;
 
@@ -27,9 +30,14 @@ public partial class MainWindow : Window
 
 
         root.AppendChild(CreateBook(
-            doc, "CHILDREN", "333", "Charlotte's Web", "E.B. White", "1952", "12.60", "EBOOK"));
+            doc, "CHILDREN", "333", "Charlotte's Web", "E.B. White", "1952", "12.60", "ebook"));
 
         // fill the missing data ....
+        root.AppendChild(CreateBook(
+            doc, "WEB", "444", "Beginning XML", "Joe Fawcett", "2012", "31.30", "paperback", "4"));
+        
+        root.AppendChild(CreateBook(
+            doc, "WEB", "555", "Programing .NET Web Services", "Alex Ferrara", "2002", "38.36", "paperback", "3"));
 
         doc.Save(@"sample.xml");
         //string xmlOutput = doc.OuterXml;
@@ -78,31 +86,80 @@ public partial class MainWindow : Window
     private void Validate_Click(object? sender, RoutedEventArgs e)
     {
         // TODO
+
+        var handler = new HandlerXML(txtXmlFile.Text ?? "", txtXsdFile.Text ?? "");
+
+        if (handler.ValidateXML(out string message))
+            txtSelectedTitle.Text = "XML valido";
+        else
+            txtSelectedTitle.Text = message;
     }
 
     private void GetTitles_Click(object? sender, RoutedEventArgs e)
     {
         // TODO
+
+        var handler = new HandlerXML(txtXmlFile.Text ?? "");
+        listBoxBookTitles.ItemsSource = handler.GetTitles();
+
     }
 
     private void listBoxBookTitles_SelectionChanged(object? sender, SelectionChangedEventArgs e)
     {
         // TODO
+
+         selectedTitle = listBoxBookTitles.SelectedItem?.ToString() ?? string.Empty;
+    txtSelectedTitle.Text = selectedTitle;
+
     }
 
-    private void UpdateAuthor_Click(object? sender, RoutedEventArgs e)
+    private async void UpdateAuthor_Click(object? sender, RoutedEventArgs e)
+{
+    
+    if (string.IsNullOrWhiteSpace(selectedTitle) || string.IsNullOrWhiteSpace(txtNewAuthor.Text))
+        return;
+
+    var handler = new HandlerXML(txtXmlFile.Text ?? "");
+    bool result = handler.UpdateAuthorByTitle(selectedTitle, txtNewAuthor.Text);
+
+    var box = MessageBoxManager.GetMessageBoxStandard(
+        "Update Author",
+        result ? "Autor atualizado." : "Livro não encontrado.",
+        ButtonEnum.Ok);
+    await box.ShowAsync();
+}
+
+    
+
+    private async void AddRate_Click(object? sender, RoutedEventArgs e)
     {
         // TODO
+
+         if (string.IsNullOrWhiteSpace(selectedTitle))
+        return;
+
+    var handler = new HandlerXML(txtXmlFile.Text ?? "");
+    string rate = ((int)(numRate.Value ?? 1)).ToString();
+    bool result = handler.AddRateToBook(selectedTitle, rate);
+
+    var box = MessageBoxManager.GetMessageBoxStandard(
+        "Add Rate", result ? "Rate adicionado." : "Livro não encontrado.", ButtonEnum.Ok);
+    await box.ShowAsync();
     }
 
-    private void AddRate_Click(object? sender, RoutedEventArgs e)
+    private async void AddISBN_Click(object? sender, RoutedEventArgs e)
     {
         // TODO
-    }
 
-    private void AddISBN_Click(object? sender, RoutedEventArgs e)
-    {
-        // TODO
+        if (string.IsNullOrWhiteSpace(selectedTitle) || string.IsNullOrWhiteSpace(txtISBN.Text))
+        return;
+
+    var handler = new HandlerXML(txtXmlFile.Text ?? "");
+    handler.AddAttributeISBNToBook(selectedTitle, txtISBN.Text);
+
+    var box = MessageBoxManager.GetMessageBoxStandard(
+        "Add ISBN", "ISBN adicionado.", ButtonEnum.Ok);
+    await box.ShowAsync();
     }
 
 

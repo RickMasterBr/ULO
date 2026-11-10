@@ -7,15 +7,6 @@ import aed.colecoes.iteraveis.lineares.naoordenadas.ColecaoIteravelLinearNaoOrde
 import java.io.Serializable;
 import java.util.NoSuchElementException;
 
-/**
- * @author Actual code:
- * Carlos Urbano<carlos.urbano@ulo.pt>
- * Catarina Reis<catarina.reis@ulo.pt>
- * Marco Ferreira<marco.ferreira@ulo.pt>
- * João Ramos<joao.f.ramos@ulo.pt>
- * Sónia Luz<sonia.luz@ulo.pt>
- * Original code: José Magno<jose.magno@ulo.pt>
- */
 public class ListaNaoOrdenada<T> implements ColecaoIteravelLinearNaoOrdenada<T> {
     private static final long serialVersionUID = 1L;
 
@@ -64,32 +55,38 @@ public class ListaNaoOrdenada<T> implements ColecaoIteravelLinearNaoOrdenada<T> 
 
     public ListaNaoOrdenada<T> removerDoFim(int n) {
         // todo Ficha Prática 4 - 2
-        ListaNaoOrdenada<T> resultado = new ListaNaoOrdenada<>();
-        if (n <= 0 || numeroElementos == 0) {
-            return resultado;
-        }
-        if (n > numeroElementos) {
-            n = numeroElementos;
+        // base ⇄ [3] ⇄ [1] ⇄ [5] ⇄ [4] ⇄ [2] ⇄ base
+
+        ListaNaoOrdenada<T> nova = new ListaNaoOrdenada<>();
+
+        if (n <= 0 || n > numeroElementos){
+            return nova;
         }
 
-        // Inicialização de variáveis auxiliares
-        No fimDesta = numeroElementos == n ? base : getNoPorIndice(numeroElementos - n - 1);
-        No inicioResultado = fimDesta.seguinte;
-        No fimResultado = base.anterior;
-        NoBase baseResultado = resultado.base;
+        No primeiroRemovido = base;
+        No ultimoRemovido = base.anterior;
 
-        // atualizar esta
-        fimDesta.seguinte = base;
-        base.anterior = fimDesta;
+        nova.base.anterior = ultimoRemovido;
+
+
+        for (int i = 0; i < n; i++) {
+            primeiroRemovido = primeiroRemovido.anterior;
+        }
+
+        No primeiroRemovidoAnterior = primeiroRemovido.anterior;
+
+        nova.base.seguinte = primeiroRemovido;
+        base.anterior = primeiroRemovidoAnterior;
+        primeiroRemovidoAnterior.seguinte =  base;
+
+        nova.base.seguinte.anterior = nova.base;
+        nova.base.anterior.seguinte = nova.base;
+
+        nova.numeroElementos = n;
         numeroElementos -= n;
 
-        // atualizar resultado
-        baseResultado.seguinte = inicioResultado;
-        baseResultado.anterior = fimResultado;
-        fimResultado.seguinte = inicioResultado.anterior = baseResultado;
-        resultado.numeroElementos = n;
+        return nova;
 
-        return resultado;
     }
 
 

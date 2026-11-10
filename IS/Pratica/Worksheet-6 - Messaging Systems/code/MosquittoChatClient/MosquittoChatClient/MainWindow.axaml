@@ -1,0 +1,85 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="350"
+        SizeToContent="Height"
+        x:Class="MosquittoChatClient.MainWindow"
+        Title="Mosquitto Chat Client">
+    <DockPanel Margin="10">
+
+        <!-- Top: Nickname + Classroom + Connect -->
+        <Grid DockPanel.Dock="Top"
+              ColumnDefinitions="120,*,20,80"
+              RowDefinitions="Auto,Auto"
+              Margin="0,0,0,10">
+
+            <!-- Nickname -->
+            <TextBlock Grid.Row="0" Grid.Column="0" Text="Nickname:" x:Name="Nickname"/>
+            <TextBox Grid.Row="0" Grid.Column="1" x:Name="NicknameBox"/>
+
+            <!-- Espaçito -->
+            <Border Grid.Row="0" Grid.Column="2"/>
+
+            <!-- Botão Connect -->
+            <Button Grid.Row="0"
+                    Grid.RowSpan="2"
+                    Grid.Column="3"
+                    x:Name="ConnectButton"
+                    Content="Connect"
+                    Width="80"
+                    Height="60"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"/>
+
+            <!-- Classroom -->
+            <TextBlock Grid.Row="1" Grid.Column="0" Text="Classroom:" x:Name="Classroom"/>
+            <TextBox Grid.Row="1" Grid.Column="1" x:Name="ClassroomBox"/>
+
+        </Grid>
+
+        <!-- Status -->
+        <TextBlock DockPanel.Dock="Top"
+                   x:Name="StatusLabel"
+                   Text="Connection status: connected"
+                   FontWeight="Bold"
+                   Foreground="Green"
+                   Margin="0,0,0,10"/>
+
+        <!-- Área de mensagens -->
+        <TextBox x:Name="MessageArea"
+                 DockPanel.Dock="Top"
+                 Margin="0,10,0,10"
+                 AcceptsReturn="True"
+                 IsReadOnly="True"
+                 TextWrapping="Wrap"
+                 Height="300"/>
+
+        <!-- Input + espaçito + botão Send -->
+        <Grid DockPanel.Dock="Bottom"
+              ColumnDefinitions="*,20,120"
+              Height="40"
+              Margin="0,10,0,0">
+
+            <!-- Caixa de texto -->
+            <TextBox x:Name="MessageInput"
+                     Grid.Column="0"
+                     PlaceholderText="Escreva a mensagem..."
+                     VerticalContentAlignment="Center"/>
+
+            <!-- Espaçito vazio -->
+            <Border Grid.Column="1"/>
+
+            <!-- Botão Send -->
+            <Button x:Name="SendButton"
+                    Grid.Column="2"
+                    Content="Send"
+                    HorizontalAlignment="Stretch"
+                    VerticalAlignment="Stretch"
+                    HorizontalContentAlignment="Center"
+                    VerticalContentAlignment="Center"/>
+        </Grid>
+    </DockPanel>
+</Window>

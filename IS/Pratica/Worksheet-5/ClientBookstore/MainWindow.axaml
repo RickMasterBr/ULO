@@ -1,0 +1,157 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="ClientBookstore.MainWindow"
+        SizeToContent="WidthAndHeight"
+        Title="Client Bookstore">
+   <StackPanel Margin="10" Spacing="10">
+
+        <!-- Get Books -->
+        <Button Name="btnGetBooks"
+                Content="Get Books"
+                Width="120"
+                HorizontalAlignment="Left"
+                Click="BtnGetBooks_Click"/>
+
+        <!-- Filter by Category -->
+        <Grid ColumnDefinitions="Auto,220,Auto,*">
+
+            <TextBlock Grid.Column="0"
+                       VerticalAlignment="Center"
+                       Text="Category:"/>
+
+            <ComboBox Name="cmbCategory"
+                      Grid.Column="1"
+                      Width="220"
+                      Margin="5,0"/>
+
+            <Button Name="btnFilterCategory"
+                    Grid.Column="2"
+                    Margin="10,0,0,0"
+                    Content="Filter"
+                    Click="BtnFilterCategory_Click"/>
+        </Grid>
+
+        <!-- Filter by Title -->
+        <Grid ColumnDefinitions="Auto,220,Auto,*">
+
+            <TextBlock Grid.Column="0"
+                       VerticalAlignment="Center"
+                       Text="Title:"/>
+
+            <ComboBox Name="cmbTitles"
+            Width="220"
+                      Grid.Column="1"
+                      Margin="5,0"/>
+
+            <Button Name="btnFilterTitle"
+                    Grid.Column="2"
+                    Margin="10,0,0,0"
+                    Content="Filter"
+                    Click="BtnFilterTitle_Click"/>
+        </Grid>
+
+        <!-- List -->
+        <TextBlock Text="Books:"
+                   FontWeight="Bold"/>
+
+        <Border BorderThickness="1"
+                Padding="5"
+                Height="170">
+
+            <ListBox Name="lstBooks"
+                     SelectionChanged="lstBooks_SelectionChanged"/>
+
+        </Border>
+
+        <Separator/>
+
+        <!-- Book Details -->
+        <Grid ColumnDefinitions="100,*"
+              RowDefinitions="Auto,Auto,Auto,Auto,Auto">
+
+            <!-- Title -->
+            <TextBlock Grid.Row="0"
+                       Grid.Column="0"
+                       VerticalAlignment="Center"
+                       Text="Title:"/>
+
+            <TextBox Name="txtTitle"
+                     Grid.Row="0"
+                     Grid.Column="1"
+                     Margin="0,3"/>
+
+            <!-- Author -->
+            <TextBlock Grid.Row="1"
+                       Grid.Column="0"
+                       VerticalAlignment="Center"
+                       Text="Author:"/>
+
+            <TextBox Name="txtAuthor"
+                     Grid.Row="1"
+                     Grid.Column="1"
+                     Margin="0,3"/>
+
+            <!-- Year -->
+            <TextBlock Grid.Row="2"
+                       Grid.Column="0"
+                       VerticalAlignment="Center"
+                       Text="Year:"/>
+
+            <TextBox Name="txtYear"
+                     Grid.Row="2"
+                     Grid.Column="1"
+                     Margin="0,3"/>
+
+            <!-- Price -->
+            <TextBlock Grid.Row="3"
+                       Grid.Column="0"
+                       VerticalAlignment="Center"
+                       Text="Price:"/>
+
+            <TextBox Name="txtPrice"
+                     Grid.Row="3"
+                     Grid.Column="1"
+                     Margin="0,3"/>
+
+            <!-- Category -->
+            <TextBlock Grid.Row="4"
+                       Grid.Column="0"
+                       VerticalAlignment="Center"
+                       Text="Category:"/>
+
+            <ComboBox Name="cmbBookCategory"
+            Width="220"
+                      Grid.Row="4"
+                      Grid.Column="1"
+                      Margin="0,3"/>
+        </Grid>
+
+        <Separator/>
+
+        <!-- Bottom buttons -->
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Spacing="15">
+
+            <Button Name="btnClear"
+                    Width="100"
+                    Content="Clear"
+                    Click="BtnClear_Click"/>
+
+            <Button Name="btnDelete"
+                    Width="100"
+                    Content="Delete"
+                    Click="BtnDelete_Click"/>
+
+            <Button Name="btnAdd"
+                    Width="100"
+                    Content="Add"
+                    Click="BtnAdd_Click"/>
+
+        </StackPanel>
+
+    </StackPanel>
+</Window>
